@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.hero-class{
+    background-image:url(./images/developer.png) ,url(./images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: left, right bottom;
+    background-color: rgba(255, 248, 243, 1);;
+}
+/* navbar Start */
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 14.375rem;
+    margin-right: 14.375rem;
+    padding-top: 2.3rem;
+    
+}
+
+.nav-container h2{
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: left;
+    font-family: Open Sans;
+}
+
+.nav-container h2 span{
+    color: orangered;
+} 
+
+.nav-container ul{
+    display: flex;
+    align-items: center;
+}
+
+
+nav ul li a{
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 100%;
+    font-family: Open Sans;
+    color: rgb(56, 55, 55);
+    margin-right: 1.5rem;
+
+}
+
+
+.btn-primary{
+    background-color: orangered;
+    color: white;
+    border: none;
+    width: 10rem;
+    height: 4.063rem;
+    font-size: 1.25rem;
+    border-radius: 0.5rem;
+    font-family: Open Sans;
+    padding: 5px;
+}
+
+/* navbar end */
+
+/* banner part start */
+.banner{
+   display: flex;
+   align-items: center;
+   justify-content:space-between;
+   margin: 0 1.5rem 0 14.375rem;
+}
+.banner-container h2{
+    color: var(--Dark 02, rgba(71, 71, 71, 1));
+    font-family: Open Sans;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-bottom: 0.8rem;
+    /* text-align: left; */
+}
+
+.banner-container h1{
+    color: var(--Dark 01, rgba(24, 24, 24, 1));
+    font-family: Open Sans;
+    font-size: 85px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 0.8rem;
+}
+
+.banner-container p{
+    color: var(--Dark 03, rgba(117, 117, 117, 1));
+
+font-family: Open Sans;
+font-size: 1.2rem;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+word-wrap: break-word;
+margin-bottom: 0.9rem;
+}
