@@ -100,13 +100,17 @@ nav ul li a{
 
 .banner-container p{
     color: var(--Dark 03, rgba(117, 117, 117, 1));
-
-font-family: Open Sans;
-font-size: 1.2rem;
-font-weight: 400;
-line-height: 30px;
-letter-spacing: 0%;
-text-align: left;
-word-wrap: break-word;
-margin-bottom: 0.9rem;
+    font-family: Open Sans;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+    word-wrap: break-word;
+    margin-bottom: 0.9rem;
 }
+
+/* banner part end */
+
+
+/* responsive section */
