@@ -114,3 +114,50 @@ nav ul li a{
 
 
 /* responsive section */
+@media screen and (max-width:576px) {
+  .off{
+    display: none;
+  }
+
+/* banner section start */
+  .banner{
+    /* display: flex; */
+    flex-direction: column;
+  }
+
+
+  .banner-container{
+    margin-left: -6rem;
+    margin-top: 3rem;
+  }
+
+  .banner-container button{
+    margin-bottom: 1rem;
+  }
+
+  .nav-container{
+    flex-direction: column;
+  }
+
+  .nav-container h2{
+    font-size: 4rem;
+  }
+
+
+  .nav-container ul{
+    flex-direction: column;
+    
+  }
+
+  .nav-container ul li{
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .banner-man{
+    width: 100%;
+  }
+  /* banner section end */
+
+
+}
